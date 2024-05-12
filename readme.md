@@ -29,7 +29,7 @@ Diese Befehle sollten die aktuell installierten Versionen von Node.js und npm zu
 1. Klone das Projekt-Repository von GitHub:
 
 ```javascript
-git clone [URL des Repositories]
+git clone https://github.com/eLearningExpress/Electron-Videokurs-Template.git
 ```
 
 2.  Wechseln Sie in das Verzeichnis des geklonten Projekts:
