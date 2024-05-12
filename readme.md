@@ -1,6 +1,6 @@
 # Electron Video Kurs Template
 
-![](C:\Users\User\OneDrive\Desktop\Electron Video Kurs\assets\electron_video_kurs.jpg)
+![](https://github.com/eLearningExpress/Electron-Videokurs-Template/blob/main/assets/electron_video_kurs.jpg)
 
 ### Projektbeschreibung
 
@@ -83,5 +83,5 @@ Fügen Sie neue Videos oder Lektionen hinzu, indem Sie die `index.html`-Datei be
 Um die Entwicklerwerkzeuge in der produzierten Version der Anwendung auszuschalten, kommentieren Sie die Zeile `win.webContents.openDevTools();` in der `createWindow`-Funktion der main.js aus.
 
 ## Lizenz
-Dieses Projekt ist unter der ISC-Lizenz veröffentlicht.
+Dieses Projekt ist unter der MIT-Lizenz veröffentlicht.
 
