@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>e-Learning Express</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="h-100">
+                <div class="sidebar-logo">
+                    <span>e-Learning Express</span>
+                </div>
+                <!-- Sidebar Navigation -->
+                <ul class="sidebar-nav">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link" data-video="videos/video1.mp4">
+                            Willkommen
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#lexion1" aria-expanded="false" aria-controls="lexion1">
+                            Lektion 1
+                        </a>
+                        <ul id="lexion1" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video2.mp4">- Lektion 1.1</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video3.mp4">- Lektion 1.2</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video4.mp4">- Lektion 1.3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#lexion2" aria-expanded="false" aria-controls="lexion2">
+                            Lektion 2
+                        </a>
+                        <ul id="lexion2" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video5.mp4">- Lektion 2.1</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video6.mp4">- Lektion 2.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#lexion3" aria-expanded="false" aria-controls="lexion3">
+                            Lektion 3
+                        </a>
+                        <ul id="lexion3" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video7.mp4">- Lektion 3.1</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video8.mp4">- Lektion 3.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#lexion4" aria-expanded="false" aria-controls="lexion4">
+                            Lektion 4
+                        </a>
+                        <ul id="lexion4" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video9.mp4">- Lektion 4.1</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link" data-video="videos/video10.mp4">- Lektion 4.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Main Component -->
+        <div class="video-container">
+            <video controls class="responsive-video" id="videoPlayer">
+                <source src="videos/video1.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

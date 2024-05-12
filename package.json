@@ -1,0 +1,44 @@
+{
+  "name": "video-kurs",
+  "version": "1.0.0",
+  "description": "Videokurs zum Thema XY",
+  "main": "main.js",
+  "author": {
+    "name": "e-learning Express",
+    "email": "lernkarten@nerdies24.de"
+  },
+  "license": "ISC",
+  "homepage": "https://lernkarten.nerdies24.de",
+  "build": {
+    "appId": "de.nerdies24.video-kurs",
+    "productName": "Video Kurs",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "maintainer": "lernkarten@nerdies24.de",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "assets/app-icon.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/app-icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/app-icon.icns",
+      "category": "public.app-category.utilities"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.2",
+    "electron-builder": "^24.13.3"
+  }
+}
