@@ -35,7 +35,7 @@ git clone https://github.com/eLearningExpress/Electron-Videokurs-Template.git
 2.  Wechseln Sie in das Verzeichnis des geklonten Projekts:
 
 ```javascript
-cd video-kurs
+cd Electron-Videokurs-Template
 ```
 
 ### Schritt 3: Installation der Projekt-Abhängigkeiten
